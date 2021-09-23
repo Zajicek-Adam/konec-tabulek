@@ -63,6 +63,12 @@ footer{
     padding-top: 5em;
     padding-bottom: 5em;
 }
+footer > div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
 footer > div > div{
     display: flex;
     flex-direction: column;
