@@ -28,7 +28,7 @@ nav{
 nav >  h2{
     padding: 1.25em;
 }
-nav > a{
+nav > a, footer > div > div > a{
     margin: 1em;
     text-decoration: none;
     color: black;
@@ -52,8 +52,35 @@ main > p{
 .carbon{
     max-width: 50em;
 }
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    width: 100%;
+    margin-top: 20em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+footer > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1em;
+}
+footer > div > div a{
+    color: white;
+}
 @media only screen and (max-width: 1000px){
     .carbon{
         width: 100%;
+    }
+    main > p{
+        max-width: 80%;
     }
 }
