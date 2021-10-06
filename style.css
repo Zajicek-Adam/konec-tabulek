@@ -28,6 +28,10 @@ nav{
 nav >  h2{
     padding: 1.25em;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 nav > a, footer > div > div > a{
     margin: 1em;
     text-decoration: none;
