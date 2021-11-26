@@ -18,9 +18,8 @@ nav{
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0%;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.575);
     width: 100%;
     background-color: white;
     z-index: 20;
@@ -46,12 +45,12 @@ main{
 }
 main > h1{
     margin: 2em;
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 main > p{
     max-width: 60%;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 .carbon{
     max-width: 50em;
@@ -64,8 +63,7 @@ footer{
     background-color: #121212;
     width: 100%;
     margin-top: 20em;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding: 3em 0;
 }
 footer > div{
     display: flex;
@@ -85,6 +83,12 @@ footer > div > div{
 }
 footer > div > div a{
     color: white;
+}
+#grid{
+    border: 2px double black;
+    transition: all 800ms ease;
+    border-radius: 15em;
+    padding: 0.5em 1em;
 }
 @media only screen and (max-width: 1000px){
     .carbon{
